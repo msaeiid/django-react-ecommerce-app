@@ -1,0 +1,32 @@
+@media (max-width: 1000px) {
+    .responsiveCart {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .responsiveCart {
+        width: 100%;
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsiveCart {
+        width: 100%;
+        padding: 6px;
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+}
+
+.stickyNavbar {
+    position: sticky !important;
+    top: 0;
+    z-index: 1030;
+}
